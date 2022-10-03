@@ -1,0 +1,66 @@
+ body {
+  overflow-x: hidden;
+ }
+ @media screen and (min-width: 900px) {
+  .custom-header{
+    display: block;
+  }
+}
+
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: "#00062";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-left: 25%;
+}
+ .slick-slide > div{
+  margin: 0 10px;
+ }
+ .overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  border-radius: 12px;
+  background-color: #1C97FD!important;
+}
+ .icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  background-color: #ccc!important;
+  border-radius: 50%;
+  padding: 10px;
+  opacity: 0.7;
+  z-index: 5;
+} 
+.image {
+  opacity: 1;
+}
+.imageContainer{
+  cursor: pointer;
+}
+.imageContainer:hover .image{
+  opacity: 0.9;
+}
+
+.imageContainer:hover .overlay{
+  opacity: 0.7;
+}
+
+html {
+  scroll-behavior: smooth;
+}

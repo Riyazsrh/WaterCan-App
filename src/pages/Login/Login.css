@@ -1,0 +1,365 @@
+* {
+  box-sizing: border-box;
+}
+
+.login-container {
+  height: 100vh !important;
+}
+
+.login-sidebar {
+  background: url("../../assets/images/login-side-bg.png"),
+    linear-gradient(to right top, #2bb5f8, #04dfec);
+
+  padding: 30px !important;
+}
+
+.category {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  line-height: 30px;
+  color: #ffffff;
+  margin-top: 1rem !important;
+  margin-bottom: 20px !important;
+}
+
+.login-sidebar-slide-1,
+.login-sidebar-slide-2,
+.login-sidebar-slide-3 {
+  background: url("../../assets/images/login-sidebar-slide-1.png"),
+    linear-gradient(rgb(9, 9, 26), rgb(9, 9, 26));
+  height: 8rem;
+  border-radius: 20px;
+  position: relative;
+  margin: 0.7rem 0 !important;
+  cursor: pointer;
+}
+.login-sidebar-image {
+  height: 9rem;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+}
+.login-sidebar-slide-2 {
+  background: url("../../assets/images/login-sidebar-slide-2.png"),
+    linear-gradient(rgb(9, 9, 26), rgb(9, 9, 26));
+}
+.login-sidebar-slide-3 {
+  background: url("../../assets/images/login-sidebar-slide-3.png"),
+    linear-gradient(rgb(9, 9, 26), rgb(9, 9, 26));
+}
+
+.login-sidebar-content {
+  color: #ffffff;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  font-family: Inter !important;
+}
+
+.active {
+  box-shadow: 1px 1px 20px #ffffff;
+}
+.registerBtn button {
+
+  background-color: white !important;
+  color: #000620 !important;
+
+}
+
+.registerBtn:hover {
+  background-color: white !important;
+  border-radius: 10px;
+}
+.active-check {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #44d275;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.active-arrow {
+  position: absolute;
+  top: center;
+  right: -17px;
+}
+.input {
+  background: #ffffff;
+  box-shadow: 2px 2px 25px 2px rgba(177, 233, 255, 0.6);
+  border-radius: 10px;
+  width: 100% !important;
+}
+
+.play-store {
+  background: #ffffff;
+  box-shadow: 2px 2px 10px rgba(103, 205, 246, 0.8);
+  border-radius: 15px !important;
+  width: 180px !important;
+  margin-top: 30px !important;
+}
+
+.play-store img {
+  width: 90% !important;
+}
+
+.loginButton {
+  display: flex !important;
+  width: 100% !important;
+  margin-top: 30px;
+}
+.loginButton div:first-child button {
+  min-width: 100% !important;
+}
+.appBox {
+  margin: 6px 35px 6px 35px !important;
+  padding: 5px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+
+  background: "#fff";
+  border-radius: 5px !important;
+}
+.downloadTypo {
+  font-size: 12px !important;
+  color: #ffffff !important;
+}
+.mobileNoChildBox1 {
+  margin-top: 12px !important;
+  flex: 1;
+  width: 100%;
+  background-color: #ffffff !important;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px !important;
+  box-shadow: 2px 2px 25px 2px rgba(177, 233, 255, 0.6) !important;
+}
+
+.mobileNoChildBox2 {
+  padding: 3%;
+  padding-left: 5%;
+  flex: 3;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.mobileNoChildBox2Typography {
+  color: #a4a1a1;
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+.mobileNoChildBox2Box {
+  width: 24px;
+  height: 24px;
+  bottom: -99.98%;
+}
+.mobileNoChildBox2BoxIcon {
+  color: black;
+  font-size: 13px;
+  padding-left: 4px;
+}
+
+.divider {
+  height: 20px;
+}
+
+.mobileNoChildBox3 {
+  flex: 5;
+  display: flex;
+  align-items: center;
+}
+.textField {
+  font-family: Fira Sans;
+  color: white;
+  border-radius: 5px !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+
+  padding-top: 0px;
+  padding-left: 13%;
+  padding-right: 13%;
+  padding-bottom: 10%;
+}
+.childBox4 {
+  flex: 1;
+
+  padding-top: 5%;
+  align-items: center;
+  justify-content: center;
+  color: #a4a1a1;
+  vertical-align: middle;
+}
+.phoneIcon {
+  height: 16px;
+  margin-top: -7px;
+}
+.passcodeParentDiv {
+  flex: 1;
+
+  margin-top: 2%;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-size: 23px !important;
+}
+.passcodeChildBox1 {
+  flex: 1;
+  margin-top: -1%;
+  height: 79px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 23px !important;
+}
+.passcodeChildBox2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  height: 50px;
+  font-size: 100% !important;
+}
+.passcodeChildBox3 {
+  margin-left: 5px;
+  flex: 1;
+  height: 50px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px !important;
+  font-size: 100% !important;
+}
+.passCodeChildBox3TextFields {
+  background-color: #f0f0f0;
+  padding-left: 20px !important;
+  padding-top: 15% !important;
+  border-radius: 5px !important;
+  height: 40px !important;
+}
+
+.india {
+  margin-top: 0.5px;
+}
+
+.big-bottle {
+  max-width: 100% !important;
+  height: auto;
+  width: auto\9;
+}
+
+.slider-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.slider-item-div {
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+.carousel-style {
+  height: 100% !important;
+}
+
+/* media query */
+
+@media screen and (max-width: 1250px) {
+  .play-store {
+    width: 150px !important;
+  }
+  .playstore-img {
+    width: 1rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .big-bottle {
+    display: none !important;
+  }
+  .login-section {
+    width: 120%;
+  }
+  .main-container {
+    padding-left: 50px !important;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .main-container {
+    padding-left: 0px !important;
+  }
+  .playstore-section {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .login-sidebar-image {
+    margin-left: -23px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .main-container {
+    padding-left: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .display-none-sm {
+    display: none !important;
+  }
+  .main-container {
+    padding-left: 0px !important;
+    padding-top: 40px !important;
+    background: url("../../assets/images/login-side-bg.png"),
+      linear-gradient(to bottom left, #2bb5f8, #04dfec) !important;
+    color: #ffffff;
+  }
+  .forgot-passcode {
+    color: #fff !important;
+  }
+  .login-sidebar-slide-1 .login-sidebar-slide-2 .login-sidebar-slide-3 {
+    width: 100% !important;
+  }
+  .slide {
+    width: 100% !important;
+  }
+  .login-sidebar-image-2 {
+    padding-right: 75px !important;
+  }
+  .login-sidebar-slide-1 {
+    margin-left: 20px !important;
+  }
+  .carousel .slide img {
+    width: 90% !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .display-none-md {
+    display: none !important;
+  }
+}
+
+.passcodeParentDiv input {
+  outline: none !important;
+}

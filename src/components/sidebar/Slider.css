@@ -1,0 +1,12 @@
+.MuiTypography-body1{
+        font-size: 18px;
+        font-weight: 600;
+        font-family: inter;
+        line-height: 65px;
+}
+.ListButton:hover {
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        background-color: #1C97FD !important;
+        border-radius: 10px;
+    }

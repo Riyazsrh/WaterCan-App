@@ -1,0 +1,25 @@
+.slider-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px; 
+  left: 0px;
+}
+.slider-item-div {
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+.carousel-style {
+  height: 100% !important;
+}
+
+.control-dots .dot element {
+  display: none !important;
+}
+
+.css-1ng6znv-MuiTypography-root {
+  margin-right: 75px !important;
+}

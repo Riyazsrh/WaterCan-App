@@ -1,0 +1,26 @@
+.Shop .slick-dots {
+    top: -75px;
+    color: rgba(255, 255, 255, 1);
+  }
+  .Shop .slick-dots li.slick-active button:before {
+    color: transparent !important;
+  }
+  
+  .Shop .slick-dots li.slick-active {
+    background-color: #1c97fd;
+    width: 20px !important;
+    height: 10px;
+    border-radius: 10px;
+    vertical-align: -webkit-baseline-middle;
+    padding: 2px 15px !important;
+  
+  }
+  
+  .Shop .slick-dots li button:before {
+    color: rgba(255, 255, 255, 1) !important;
+    font-size: 10px;
+  }
+  
+  .Shop .slick-slide > div{
+    margin: 0 0px;
+   }

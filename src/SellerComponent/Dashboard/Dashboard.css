@@ -1,0 +1,17 @@
+.line {
+  background-color: linear-gradient(
+    180deg,
+    #1c97fd 20.83%,
+    rgba(28, 151, 253, 0) 100%
+  ) !important;
+  border-color: #1c97fd !important;
+}
+
+@media screen and (max-width: 960px) {
+  .graphWrapper {
+    width: 150%;
+  }
+  .scroll {
+    overflow: auto;
+  }
+}

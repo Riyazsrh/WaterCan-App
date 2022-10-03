@@ -1,0 +1,193 @@
+/** @format */
+
+import img1 from "../../assets/images/Notification/notification-1.jpg";
+import img2 from "../../assets/images/Notification/notification-2.jpg";
+import img3 from "../../assets/images/Notification/notification-3.jpg";
+import img4 from "../../assets/images/Notification/notification-4.jpg";
+import img5 from "../../assets/images/Notification/notification-5.jpg";
+
+export const data = [
+	{
+		label: "Shree Krishna Enterprises",
+		imgPath: img1,
+		c: "12:31 pm",
+		available: true,
+		text: "your order successfully placed!",
+	},
+	{
+		label: "Anushka Water",
+		imgPath: img2,
+		c: "08:11 am",
+		available: true,
+		text: "get 20% off on first booking & enjoy best ",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img3,
+		c: "08:11 am",
+		available: false,
+		text: "get 20% off on first booking & enjoy best !",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img4,
+		c: "08:11 am",
+		available: false,
+		text: "get 20% off on first booking & enjoy best ",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img5,
+		c: "12:31 pm",
+		available: false,
+		text: "get 20% off on first booking & enjoy best ",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img3,
+		c: "08:11 am",
+		available: false,
+		text: "get 20% off on first booking & enjoy best !",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img4,
+		c: "08:11 am",
+		available: false,
+		text: "get 20% off on first booking & enjoy best ",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img5,
+		c: "12:31 pm",
+		available: false,
+		text: "get 20% off on first booking & enjoy best ",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img3,
+		c: "08:11 am",
+		available: false,
+		text: "get 20% off on first booking & enjoy best !",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img4,
+		c: "08:11 am",
+		available: false,
+		text: "get 20% off on first booking & enjoy best ",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img5,
+		c: "12:31 pm",
+		available: false,
+		text: "get 20% off on first booking & enjoy best ",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img3,
+		c: "08:11 am",
+		available: false,
+		text: "get 20% off on first booking & enjoy best !",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img4,
+		c: "08:11 am",
+		available: false,
+		text: "get 20% off on first booking & enjoy best ",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img5,
+		c: "12:31 pm",
+		available: false,
+		text: "get 20% off on first booking & enjoy best ",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img3,
+		c: "08:11 am",
+		available: false,
+		text: "get 20% off on first booking & enjoy best !",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img4,
+		c: "08:11 am",
+		available: false,
+		text: "get 20% off on first booking & enjoy best ",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img5,
+		c: "12:31 pm",
+		available: false,
+		text: "get 20% off on first booking & enjoy best ",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img3,
+		c: "08:11 am",
+		available: false,
+		text: "get 20% off on first booking & enjoy best !",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img4,
+		c: "08:11 am",
+		available: false,
+		text: "get 20% off on first booking & enjoy best ",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img5,
+		c: "12:31 pm",
+		available: false,
+		text: "get 20% off on first booking & enjoy best ",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img3,
+		c: "08:11 am",
+		available: false,
+		text: "get 20% off on first booking & enjoy best !",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img4,
+		c: "08:11 am",
+		available: false,
+		text: "get 20% off on first booking & enjoy best ",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img5,
+		c: "12:31 pm",
+		available: false,
+		text: "get 20% off on first booking & enjoy best ",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img3,
+		c: "08:11 am",
+		available: false,
+		text: "get 20% off on first booking & enjoy best !",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img4,
+		c: "08:11 am",
+		available: false,
+		text: "get 20% off on first booking & enjoy best ",
+	},
+	{
+		label: "Shyamsheel Aqua Cool Water",
+		imgPath: img5,
+		c: "12:31 pm",
+		available: false,
+		text: "get 20% off on first booking & enjoy best ",
+	},
+	
+];
